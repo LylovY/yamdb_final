@@ -5,8 +5,7 @@
 ![](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
 ![](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 ![](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
-![api_yamdb workflow](https://github.com/LylovY/
-yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![](https://github.com/LylovY/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
 Yamdb - проект, собирающий отзывы пользователей на произведения. Сами произведения в Yamdb не хранятся. Yamdb поддерживает следующий функционал:
