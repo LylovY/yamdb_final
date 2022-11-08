@@ -17,8 +17,8 @@ services:
   web:
     image: hedin11/api_yamdb:latest
     build:
-      context: ../api_yamdb
-      dockerfile: Dockerfile
+      context: api_yamdb
+      dockerfile: ../api_yamdb.Dockerfile
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value,
