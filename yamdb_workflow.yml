@@ -61,7 +61,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            sudo docker pull api_yamdb:latest
+            sudo docker pull hedin11/api_yamdb:latest
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
@@ -82,4 +82,4 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: ${{ github.workflow }} успешно выполнен!
-# v3
+# v4
